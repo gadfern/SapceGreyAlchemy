@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="styles.css">
+
+   <title>Space Grey Alchemy </title>
+</head>
+<body>
+
+   <!--==================== HEADER ====================-->
+
+   <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        Space Grey Alchemy
+      </a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Us</a>
+          </li>
+          <li class="nav__item">
+            <a href="#blog" class="nav__link">Blog</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Our Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact-us" class="nav__link">Contact Us</a>
+          </li>
+        </ul>
+
+              <!--========== Close button =========-->
+              <div class="nav__close" id="nav-close">
+                <i class="ri-close-line"></i>
+              </div>
+            </div>
+
+            <!--========== Close button =========-->
+            <div class="nav__toggle" id="nav-toggle">
+              <i class="ri-menu-line"></i>
+            </div>
+    </nav>
+  </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+
+    <section class=" home section" id="home">
+        <img src="Images/Nature's Eye.jpg" alt="home image" class="home__bg">
+        <div class="home__shadow"></div>
+
+        
+        <div class="home__container container grid">
+            <div class="home__data">
+                <h3 class="home__subtitle">
+                   Fulfill Your Potential 
+                </h3>
+
+                <h1 class= "home__title">
+                    Uncover <br>
+                    Your Truth
+                </h1>
+
+                <p class = "home__description">
+                    How would your life change if you could tap into your full potential?
+                     What if you could have anything you want for your life? 
+                     Today you are one step closer to a new you.
+                </p>
+
+                <a href="#" class="button">
+                    Rewrite Your Story <i class="ri-arrow-right-line"></i>
+                </a>
+            </div>
+            
+            <div class="home__cards grid">
+                <article class ="home card">
+                   <img src="Images/Winter Flower.jpeg" alt= "home image" class="home__card-img">
+                   <h3 class ="home__card-title">Life Coaching</h3>
+                   <div class="home__card-shadow"></div>
+                </article>
+
+                <article class ="home card">
+                    <img src="Images/Winter Flower.jpeg" alt= "home image" class="home__card-img">
+                    <h3 class ="home__card-title">Astrology Readings</h3>
+                    <div class="home__card-shadow"></div>
+                 </article>
+
+                 <article class ="home card">
+                    <img src="Images/Winter Flower.jpeg" alt= "home image" class="home__card-img">
+                    <h3 class ="home__card-title">Mentorship</h3>
+                    <div class="home__card-shadow"></div>
+                 </article>
+
+                 <article class ="home card">
+                    <img src="Images/Winter Flower.jpeg" alt= "home image" class="home__card-img">
+                    <h3 class ="home__card-title">Reiki</h3>
+                    <div class="home__card-shadow"></div>
+                 </article>
+
+
+            </div>
+        </div>
+    </section>
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         
+      </section>
+
+      <!--==================== ABOUT US ====================-->
+      <section class="about section" id="about">
+         <div class=" about__container container grid">
+          <div class=" about__data">
+            <h2 class="section__title">
+              Learn More <br>
+              Alyssa Anderson
+            </h2>
+              <p class="about__description">
+                I am more than a Life Coach; I am a guide on your journey to self-discovery and purpose. With empathy and unwavering support, I walk alongside you, nurturing your strengths and guiding you towards the purpose-driven life you deserve.
+              </p>
+
+              <a href="#" class="button">
+                  Book A Consultation <i class="ri-arrow-right-line"></i>
+              </a>
+          </div>
+          
+          <div class="about__video">
+            <video width="640" height="360" controls>
+              <source src="Images/Temp.mp4" alt="about__video" class="about__vid"  type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+
+          <div>
+            <button onclick="playPause()">Play/Pause</button>
+            <button onclick="makeFull()">Full Screen</button>
+        </div>
+
+          <div class="about__shadow"></div>
+          </div>
+         </div>
+      </section>
+
+      <!--==================== OUR SERVICES ====================-->
+      <section class="services section" id="services">
+         <h2 class="section title">
+          Be Inspired <br>
+          Be Aligned
+         </h2>
+
+         <div class="services__containter container grid">
+            <article class="services__card">
+              <div class="services__image">
+                <img src="Images/Services.jpg" alt="services image" class="services__img">
+                <div class="services__shadow"></div>
+              </div>
+
+              <h2 class="services__title">
+                  Life Coaching
+              </h2>
+
+             <div class="services__types" >
+              <i class="ri-service-line"></i>
+             </div>
+             <span>Transform & Grow</span>
+             
+            </article>
+
+            <article class="services__card">
+              <div class="services__image">
+                <img src="Images/Mentorship.jpg" alt="services image" class="services__img">
+                <div class="services__shadow"></div>
+              </div>
+
+              <h2 class="services__title">
+                Mentorship
+              </h2>
+
+             <div class="services__types" >
+              <i class="ri-service-line"></i>
+             </div>
+             <span>Support & Guidance </span>
+             
+            </article>
+
+            <article class="services__card">
+              <div class="services__image">
+                <img src="Images/Reiki.jpg" alt="services image" class="services__img">
+                <div class="services__shadow"></div>
+              </div>
+
+              <h2 class="services__title">
+                Reiki
+              </h2>
+
+             <div class="services__types" >
+              <i class="ri-service-line"></i>
+             </div>
+             <span>Spiritual Healing </span>
+             
+            </article>
+
+            <article class="services__card">
+              <div class="services__image">
+                <img src="Images/Astrology.jpg" alt="services image" class="services__img">
+                <div class="services__shadow"></div>
+              </div>
+
+              <h2 class="services__title">
+                 Astrology Readings
+              </h2>
+
+             <div class="services__types" >
+              <i class="ri-service-line"></i>
+             </div>
+             <span>Cosmic Insights</span>
+             
+            </article>
+         </div>
+      </section>
+
+      <!--==================== BLOG ====================-->
+      <section class="blog section" id="blog">
+         <div class="blog__container">
+          <div class="blog__image">
+            <img src="Images/Joy.jpg" alt="blog image" class="blog__img">
+            <div class="blog__shawdow"></div>
+          </div>
+
+          <div class="blog__content container grid">
+            <div class="blog__data">
+               <h2 class="section__title">
+                Set <br>
+                Your Intentions
+
+               </h2>
+
+               <p class="blog__description">
+                Through poignant narratives and actionable strategies, this blog intricately explores the transformative journey towards embracing joy as a deliberate intention. Discover how conscious choices and purposeful living can pave the path to a fulfilling and joyful existence, empowering readers to craft a life imbued with happiness and meaning.
+               </p>
+            </div>
+
+            <div class="blog__user">
+              <img src="Images/Mountain.jpeg" alt=" Joy Image" class="blog__joy">
+              <span class="blog__name">Move Towards Joy</span>
+            </div>
+          </div>
+         </div>
+      </section>
+      
+      <!--==================== CONTACT US ====================-->
+      <section class="contact-us section" id="contact-us">
+         <div class="contact-us__container grid"> 
+          <div class="contact-us__data">
+            <h2 class="section__title">
+               Your Journey<br>
+               Starts Here
+            </h2>
+
+            <p class="contact-us__description">
+              Let's connect for a complimentary reading, 
+             initial consultation, and updates from us.
+            </p>
+
+            <form action="" class="contact-us__form">
+              <input type="email" placeholder="Enter your email" class="join__input">
+
+              <button class="contact-us__button button">
+                Subcscribe Here<i class="ri-arrow-right-line"></i>
+              </button>
+            </form>
+          </div>
+          <div class="contact-us__image">
+            <img src="Images/Subscribe.jpg" alt="contact-us image" class="contact-us__img">
+          </div>
+         </div>
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+           <div>
+            <a href="#" class="footer__logo">Space Grey Alchemy</a>
+
+            <p class="footer__description">
+              Be In Connection <br>
+              Alter Your Reality
+            </p>
+           </div>
+
+           <div class="footer_data grid">
+              <div>
+                <h3 class="footer__title"></h3>
+
+                <ul class="footer__links">
+                  <li>
+                    <a href="#" class="footer__link"> </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="footer__link"> </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="footer__link"> </a>
+                  </li>
+
+
+                </ul>
+              </div>
+           </div>
+        </div>
+
+        <div class="footer__group">
+          <div class="footer__social">
+            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+              <i class="ri-facebook-box-fill"></i>
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+              <i class="ri-meta-line"></i>
+            </a>
+
+            <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+              <i class="ri-twitter-line"></i>
+            </a>
+
+            <a href="https://www.youtube.com/" target="_blank" class="footer__social-link">
+              <i class="ri-youtube-line"></i>
+            </a>
+          </div>
+
+          <span class="footer__copy">
+          &#169; Copyright Space Grey Alchemy. All rights reserved.   
+          </span>
+        </div>
+      </div>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+   <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+   </a>
+
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src=""></script> <!-- Placeholder for ScrollReveal script -->
+
+   <!--=============== MAIN JS ===============-->
+   <script src="main.js"></script>
+</body>
+</html>
